@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.get("/usuarios")
 def listar():
-    return ["joão, maria"]
+    return ["joão, maria, carlos"]
 
 @app.post("/criarusuarios")
  def criar():
